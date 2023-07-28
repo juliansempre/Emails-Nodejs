@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envie seu email</title>
+</head>
+<body>
+
+		<!-- Servidor funcionando na porta 3080; -->
+
+		<br/>
+		<div className='contato' id='contatoLink' >
+
+		<center> <p>Entre em contato conosco</p></center>
+		<br/>
+		<form action='/send-email' method="POST" >
+
+		<center> <input type="text" id="nome" name="nome"  placeholder='Digite o seu nome'></input></center>
+		<br/>
+		<center> <input type="text" id="senha"  name="senha" placeholder='Digite o seu e-mail'></input></center>
+		<br/>
+		<center>   <input name="contato" id="contato" type="textarea"></input></center>
+		<br/>
+		<div>
+		<center> 
+		<button className='botContato btn btn-primary' name="Enviar">Enviar</button>
+		<button className='botContato btn btn-primary'>Limpar</button>
+		</center> 
+		</div>
+    
+    <script>
+ // window.location.href = "http://localhost:3000/";
+
+// dependencias:
+// npm init -y
+// npm i express
+// npm i path
+// npm i nodemailer
+// npm i body-parser
+// npm i nodemon
+
+// Abra e adicione no package.json:
+
+// "scripts": {
+//   "build": "node build.js"
+// }
+
+    </script>
+</body>
+</html>
